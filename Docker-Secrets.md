@@ -92,7 +92,7 @@ The above command makes sure that this service container only will have the righ
 
 - Docker swarm worker nodes save the secrets at the path /run/secrets/. And this can be verified as follows -
 
-\*\* on node1 node where service's container available
+* on node1 node where service's container available
 
 ```bash
 vagrant@node1:~$ docker ps
