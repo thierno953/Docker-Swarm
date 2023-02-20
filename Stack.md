@@ -177,7 +177,7 @@ vagrant@manager-swarm:/vagrant$
 And to remove the services, use the below command -
 
 ```bash
-vagrant@manager-swarm:/vagrant$  docker stack rm wordpress
+vagrant@manager-swarm:/vagrant$ docker stack rm wordpress
 Removing service wordpress_db
 Removing service wordpress_wordpress
 Removing network wordpress_default
