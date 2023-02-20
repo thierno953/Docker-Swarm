@@ -39,6 +39,7 @@ Commercial support is available at
 </body>
 </html>
 
+==============================================
 
 vagrant@manager-swarm:/$ curl node2:8080
 <!DOCTYPE html>
