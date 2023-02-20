@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
   servers=[
     {
-      # :hostname => "manager-swarm",
+      :hostname => "manager-swarm",
       :box => "bento/ubuntu-22.04",
       :ip => "192.168.56.100",
       :ssh_port => '2215'
