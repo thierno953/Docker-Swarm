@@ -50,7 +50,7 @@ phfbjh5h7qpf   agitated_fermat.3   alpine:latest   manager-swarm   Running      
 vagrant@manager-swarm:/$
 ```
 
-- Here you will notice that the manager node did not send any load on the worker node 2.
+- Here you will notice that the manager node did not send any load on the node 2.
 
 - The master node will again start sending the load on node 2 once it is active.
 
