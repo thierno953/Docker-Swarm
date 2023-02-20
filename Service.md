@@ -130,4 +130,4 @@ heuristic_carson.1.0dprmzy2kq3k@node1    | PING 192.168.56.100 (192.168.56.100):
 
 where l3 is service ID.
 
-- In some cases, the deployed service might run on multiple containers and can be viewed in the logs as above.
+* **NB** In some cases, the deployed service might run on multiple containers and can be viewed in the logs as above.
