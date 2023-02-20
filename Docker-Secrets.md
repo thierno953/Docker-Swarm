@@ -100,10 +100,6 @@ CONTAINER ID   IMAGE                      COMMAND                  CREATED      
 f060b4524a75   alpine:latest              "ping 8.8.8.8"           48 seconds ago   Up 46 seconds              relaxed_gates.1.ltb7kcml43uzckic25hvy0189
 11d173388459   thiernos/node-app:latest   "docker-entrypoint.s…"   6 minutes ago    Up 6 minutes    5000/tcp   thirsty_panini.2.y39n4rkmfn51wtgyfv658sc6d
 0228aeca3cf9   alpine:latest              "ping 192.168.56.100"    44 minutes ago   Up 44 minutes              agitated_fermat.1.xc7qzud5srtm6o77dkf3g8kv1
-vagrant@node1:~$ docker container exec -it f0 bash
-OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown
-vagrant@node1:~$ docker exec -it f060b4524a75 bash
-OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown
 vagrant@node1:~$ docker exec -it f060b4524a75 sh
 / # cd /run/secrets/
 /run/secrets # ls
