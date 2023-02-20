@@ -11,7 +11,7 @@
 output:
 
 ```bash
-vagrant@node2:~$  docker swarm leave
+vagrant@node2:~$ docker swarm leave
 Node left the swarm.
 vagrant@node2:~$
 ```
